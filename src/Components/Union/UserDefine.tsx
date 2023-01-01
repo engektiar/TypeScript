@@ -1,6 +1,6 @@
 import React from "react";
 type DataFachngProps = {
-  states: string;
+  states: "loading" | "error" | "success";
 };
 const UserDefine = ({ states }: DataFachngProps) => {
   if (states === "loading") {

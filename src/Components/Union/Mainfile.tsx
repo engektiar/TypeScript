@@ -5,7 +5,7 @@ const Mainfile = () => {
   return (
     <div>
       <h1>User Management</h1>
-      <UserDefine states="success" />
+      <UserDefine states="error" />
     </div>
   );
 };

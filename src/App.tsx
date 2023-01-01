@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 
-import Mainfile from "./Components/Union/Mainfile";
+import { Index } from "./Components/childrenProps/Index";
 
 function App() {
   return (
     <div className="App">
-      <Mainfile />
+      <Index />
     </div>
   );
 }
