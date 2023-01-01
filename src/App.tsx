@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
-import IndexFrle from "./Components/ObjectPassing/IndexFrle";
+
+import Mainfile from "./Components/Union/Mainfile";
 
 function App() {
   return (
     <div className="App">
-      <IndexFrle />
+      <Mainfile />
     </div>
   );
 }

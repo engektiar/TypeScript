@@ -12,6 +12,7 @@ type UserObject = {
 export default function User({ sender }: UserObject) {
   return (
     <div>
+      <h1> User-Defined Propas Passing</h1>
       {sender.map((item) => {
         return (
           <div>
