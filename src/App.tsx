@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
-import { StyleMain } from "./Components/StyleProps/StyleMain";
+
+import UseStarteMain from "./Components/UseStareHooks/UseStarteMain";
 
 function App() {
   return (
     <div className="App">
-      <StyleMain />
+      <UseStarteMain />
     </div>
   );
 }
